@@ -12,3 +12,22 @@ export const saveFormData = (num, datatype) => {
     datatype,
   }
 }
+
+/**
+ * 添加列表数据
+ */
+export const addList = (val) => {
+  // console.log(num, datatype)
+  return {
+    type: home.ADDLIST,
+    val
+  }
+}
+
+export const deleteList = (id) => {
+  return {
+    type: home.DELETELIST,
+    id
+  }
+}
+
