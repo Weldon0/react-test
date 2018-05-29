@@ -6,7 +6,7 @@ import { AppContainer } from 'react-hot-loader';
 import store from '@/store/store';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-
+consle.log('123');
 console.log(ReactDOM)
 const render = Component => {
   ReactDOM.render(
